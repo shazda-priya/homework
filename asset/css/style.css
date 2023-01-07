@@ -1,0 +1,180 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/* common css start */
+
+
+
+/* common css end */
+
+header{
+  background-image: url(../images/banner/banner2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header_content{
+  text-align: right;
+  vertical-align: top;
+  padding: 216px 230px 167px 0;
+}
+
+.header_content h2{
+  font-family:  'Work Sans', sans-serif;
+  font-weight: 800;
+  font-size: 65px;
+  line-height: 76px;
+  line-height: 100%;
+  margin-bottom: 30px;
+}
+
+.header_content p{
+  font-family:'Work Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  line-height: 139%;
+  margin-bottom: 30px;
+}
+
+.header_content button{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  line-height: 100%;
+  color: #FFFFFF;
+  border: none;
+  padding: 15px;
+  background-color:  #F15B22;
+  border-radius: 5px;
+}
+
+
+/* failures part start */
+
+.failures_part{
+  display: flex;
+  margin: 130px 322px 60px 130px;
+}
+
+.failures_part img{
+  height: 609px;
+  width: 469px;
+  
+}
+
+.failures_content{
+  padding: 200px 0  100px 120px;
+  
+}
+
+.section_heading{
+  font-size: 30px;
+  color: #151414;
+  font-weight: 800;
+  line-height: 47px;
+  line-height: 100%;
+  font-family: 'Work Sans', sans-serif;
+  margin-bottom: 30px;
+}
+
+
+.failures_content p{
+  font-size: 14px;
+  line-height: 40px;
+  line-height: 139%;
+  font-weight: 400;
+  font-family: 'Work Sans', sans-serif;
+  color: #444343;
+} 
+
+
+/* failures part end */
+
+.section_plan {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+.my_plan_part{
+  display: flex;
+  
+}
+
+.my_plan_heading h2{
+  font-size: 30px;
+  color: #151414;
+  font-weight: 800;
+  line-height: 47px;
+  line-height: 100%;
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.my_plan{
+  margin: auto;
+  padding: 50px 10px 70px 10px;
+  text-align: center;
+}
+
+.my_plan h3{
+  font-size: 25px;
+  line-height: 35px;
+  line-height: 100%;
+  color: #151414;
+  font-weight: 800;
+  font-family: 'Work Sans', sans-serif;
+  padding: 20px 0;
+}
+
+.my_plan p{
+  font-size: 20px;
+  line-height: 29px;
+  line-height: 100%;
+  font-weight: 500;
+  font-family: 'Work Sans', sans-serif;
+  color: #737272;
+}
+
+/* failures part end */
+
+/* positive part */
+.section_positive{
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 100px 0;
+}
+.positive_part{
+  background-image: url(../images/watch.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px 300px 30px 30px;
+}
+
+.positive_part h2{
+  font-size: 40px;
+  font-weight: 800;
+  font-family: 'Work Sans', sans-serif;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.positive_part button{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  line-height: 100%;
+  color: #F15B22;
+  border: none;
+  padding: 15px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+}
+
+
+/* positive part */
+
+
+
