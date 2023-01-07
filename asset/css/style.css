@@ -142,17 +142,27 @@ header{
 
 /* positive part */
 .section_positive{
-  margin: 0 auto;
-  max-width: 900px;
-  padding: 100px 0;
-}
-.positive_part{
+  margin: 100px auto;
+  max-width: 1140px;
+  position: relative;
   background-image: url(../images/watch.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 30px 300px 30px 30px;
 }
 
+.positive_part:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+}
+
+.positive_part {
+  padding: 40px 300px 40px 50px; 
+}
 .positive_part h2{
   font-size: 40px;
   font-weight: 800;
@@ -175,6 +185,63 @@ header{
 
 
 /* positive part */
+
+/* footer start */
+footer{
+  background-color: #151414;
+  padding: 30px 0;
+}
+
+.footer_part{
+
+}
+
+.footer_part{
+  margin: 0 auto;
+  max-width: 1140px;
+  display: flex;
+  font-weight: 600;
+  background-color: #151414;
+}
+
+.footer_left h2{
+  font-size: 30px;
+  color: #FFFFFF;
+  font-family: 'Work Sans', sans-serif;
+  margin-bottom: 20px;
+}
+
+.footer_left p{
+  font-size: 14px;
+  color: #737272;
+  font-family: 'Work Sans', sans-serif;
+  text-align: justify;
+  margin-bottom: 10px;
+  margin-right: 450px;
+  font-weight: 400;
+}
+
+.footer_right h4{
+  color:#FFFFFF;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.footer_right button{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  line-height: 100%;
+  color: #F15B22;
+  border: none;
+  padding: 15px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+/* footer end */
 
 
 
